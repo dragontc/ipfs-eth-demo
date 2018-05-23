@@ -1,4 +1,4 @@
-#运行环境：
+# 运行环境：
 
 	Windows 10 专业版
 	
@@ -31,9 +31,9 @@ ipfs config Addresses.API /ip4/127.0.0.1/tcp/5001
 
 3.	首先安装ipfs，设置好环境变量
 
-启动ipfs:
+	启动ipfs:
 
-> ipfs daemon
+	> ipfs daemon
 
 
 4	进入ipfs-eth目录
