@@ -1,4 +1,4 @@
-运行环境：
+#运行环境：
 	Windows 10 专业版
 	Nodejs v10.1.0 （下载：https://nodejs.org/dist/v10.1.0/node-v10.1.0-x64.msi）
 	Ganache-cli （安装：npm install -g ganache-cli ）
