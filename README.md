@@ -1,4 +1,5 @@
 #运行环境：
+
 	Windows 10 专业版
 	
 	Nodejs v10.1.0 （下载：https://nodejs.org/dist/v10.1.0/node-v10.1.0-x64.msi）
@@ -29,8 +30,13 @@ ipfs config --json API.HTTPHeaders.Access-Control-Expose-Headers "[\"Location\"]
 ipfs config Addresses.API /ip4/127.0.0.1/tcp/5001
 
 3.	首先安装ipfs，设置好环境变量
+
 启动ipfs:
+
 > ipfs daemon
 
+
 4	进入ipfs-eth目录
+
 	执行： > npm start
+	
