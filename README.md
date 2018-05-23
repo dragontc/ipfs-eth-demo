@@ -8,6 +8,7 @@
 	
 	Ipfs  (下载：百度)
 	
+# 相关配置
 
 1.安装ganache-cli,设置好环境变量
 
@@ -34,7 +35,7 @@ ipfs config Addresses.API /ip4/127.0.0.1/tcp/5001
 	> ipfs daemon
 
 
-4进入ipfs-eth目录
+4.进入ipfs-eth目录
 
 	执行： > npm start
 	
