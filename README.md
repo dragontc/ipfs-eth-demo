@@ -9,13 +9,13 @@
 	Ipfs  (下载：百度)
 	
 
-1.	安装ganache-cli,设置好环境变量
+1.安装ganache-cli,设置好环境变量
 
 启动ganache-cli
 
 > ganache-cli
 
-2.	设置ipfs相关参数
+2.设置ipfs相关参数
 
 ipfs config --json API.HTTPHeaders.Access-Control-Allow-Methods "[\"PUT\", \"GET\", \"POST\", \"OPTIONS\"]"
 
@@ -29,14 +29,12 @@ ipfs config --json API.HTTPHeaders.Access-Control-Expose-Headers "[\"Location\"]
 
 ipfs config Addresses.API /ip4/127.0.0.1/tcp/5001
 
-3.	首先安装ipfs，设置好环境变量
-
-	启动ipfs:
+3.首先安装ipfs，设置好环境变量,启动ipfs:
 
 	> ipfs daemon
 
 
-4	进入ipfs-eth目录
+4进入ipfs-eth目录
 
 	执行： > npm start
 	
